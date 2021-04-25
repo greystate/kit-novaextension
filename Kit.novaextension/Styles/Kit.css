@@ -1,0 +1,21 @@
+kit {
+	background-color: rgba(100, 100, 100, 0.25);
+	color: #aaa;
+}
+
+kit.identifier.value {
+	color: tomato;
+	font-weight: bold;
+}
+
+kit.identifier.name {
+	color: greenyellow;
+}
+
+kit.output.identifier {
+	font-weight: bold;
+}
+
+kit.optional {
+	font-style: italic;
+}

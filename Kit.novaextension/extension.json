@@ -1,0 +1,10 @@
+{
+    "identifier": "dk.greystate.Kit",
+    "name": "Kit",
+    "organization": "Greystate",
+    "description": "Basic completions and syntax for using Kit files with Nova",
+    "repository": "https://github.com/greystate/kit-novaextension",
+    "bugs": "https://github.com/greystate/kit-novaextension/issues",
+    "version": "1.0",
+    "categories": ["languages", "clips"]
+}
