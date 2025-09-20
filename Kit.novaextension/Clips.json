@@ -4,20 +4,20 @@
 		"trigger" : "val",
 		"content" : "<!-- \\$${:variable}? -->",
 		"scope" : "editor",
-		"syntax" : "html"
+		"syntax" : "kit"
 	},
 	{
 		"name" : "Kit: Define variable",
 		"trigger" : "var",
 		"content" : "<!-- \\$${:name}: ${:value} -->",
 		"scope" : "editor",
-		"syntax" : "html"
+		"syntax" : "kit"
 	},
 	{
 		"name" : "Kit: Include file",
 		"trigger" : "inc",
 		"content" : "<!-- @include \"${1:filename}\" -->",
 		"scope" : "editor",
-		"syntax" : "html"
+		"syntax" : "kit"
 	}]
 }
