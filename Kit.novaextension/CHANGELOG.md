@@ -1,4 +1,8 @@
+## Version 1.1
+
+First actual stand-alone release.
+
+
 ## Version 1.0
 
-Initial release with language definition and clips.
-
+Initial version with language definition and clips.
