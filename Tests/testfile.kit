@@ -1,24 +1,31 @@
-<p class="imports">
-<!-- @import "/src/components/pageheader" -->
-<!-- @include "/src/components/pageheader" -->
-<!-- @import '../../someFileAtRelativePath.html' -->
-<!-- @include someFile.kit -->
-<!-- @include no_spaces_at_beginning_or_end.txt -->
+<style id="compiled-styles">
+<!-- @compile "path/to/file" -->
+</style>
 
+<p class="imports">
+	<!-- @import "/src/components/pageheader" -->
+	<!-- @include "/src/components/pageheader" -->
+	<!-- @import '../../someFileAtRelativePath.html' -->
+	<!-- @include someFile.kit -->
+	<!-- @include no_spaces_at_beginning_or_end.txt -->
 </p>
 
 <p class="variable" data-name="<!-- $header? -->">
-<!--$myVar: This text is amazing -->
-<!--@var2=Some other incredible text-->
-<!-- @width = 40px -->
-<!-- $manifesto Who needs colons and equals signs? -->
+	<!--$myVar: This text is amazing -->
+	<!--@var2=Some other incredible text-->
+	<!-- @width = 40px -->
+	<!-- $manifesto Who needs colons and equals signs? -->
 </p>
 
 <p class="output">
-<!-- $myVar -->
-<!-- $myOptionalVar? -->
+	<!-- $myVar -->
+	<!-- $myOptionalVar? -->
 </p>
 
 <!-- $myName: Is a value for use -->
 <div><!-- $myName? --></div>
 <!-- @include "path/to/file" -->
+
+<figure>
+	<img src="data:image/png;base64, <!-- @import-base64 'myImage.png' -->">
+</figure>
