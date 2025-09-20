@@ -1,4 +1,9 @@
 kit {
-	background-color: rgba(20, 20, 20, 0.05);
+	background-color: rgba(200, 200, 200, 0.1);
 	color: #999;
+}
+
+kit.identifier.name {
+	color: light-dark(#000, #999);
+	font-weight: bold;
 }
